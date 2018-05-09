@@ -9,4 +9,8 @@ Die Vorlagen entstanden ursprünglich als Teil des Materials für das Projekt [F
 
 Fragen und Feedback entweder als github-issue oder an <kontakt@fsfw-dresden.de>.
 
+Alle Inhalte sind, sofern nicht anders angegeben, unter der [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://gitlab.com/exot/latex-kurs/master/CC-BY-SA) lizensiert.
+
 Ggf. interessant ist auch unsere [monatliche Sprechstunde](https://fsfw-dresden.de/sprechstunde) zu LaTeX und co.
+
+
