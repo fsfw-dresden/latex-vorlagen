@@ -36,6 +36,8 @@ allcolors=[rgb]{0, .1, .5} % dunkelblau
 
 \usepackage{csquotes}
 \MakeAutoQuote{„}{“}
+
+\usepackage{amsmath}
 \usepackage{cleveref}
 
 \usepackage[scale=0.95]{tgpagella}
@@ -95,7 +97,7 @@ allcolors=[rgb]{0, .1, .5} % dunkelblau
 
     \huge
 
-    \textbf{Über das Sein und Nichtsein von\\ Werden und Vergehen}
+    \textbf{Über das Sein und Nichtsein von\\ Dingen und Ideen}
 
     \LARGE
 
@@ -119,17 +121,17 @@ allcolors=[rgb]{0, .1, .5} % dunkelblau
   \vspace*{2\bigskipamount}
 
   \begin{tabular}{@{}lp{4cm}@{\qquad}rl@{}}
-    Name:       & Lustig     & Vorname: & Lutetia\\[2.0ex]
-    geboren am: & 17.03.1976 & in:      & Duckburg
+    Name:       & Klug     & Vorname: & Klarissa\\[2.0ex]
+    geboren am: & 02.11.2000 & in:    & Schlauburg
   \end{tabular}
 
   \vspace*{4\bigskipamount}
 
-  Tag der Einreichung: 29.02.2016
+  Tag der Einreichung: 29.02.2020
 
   \vspace*{2\bigskipamount}
 
-  Betreuer: Prof. Dr. nihil. Siegfried von Gestern
+  Betreuer: Prof. Dr. nihil. Sieglinde von Gestern
 
 \end{titlepage}
 
@@ -166,7 +168,7 @@ vorherigen Abschnitte in einer kontroversen Argumentationsstruktur zusammen.
 
 \mainmatter
 
-\chapter{Eins, \dots}
+\chapter{Einleitung, \dots}
 \label{cha:eins}
 
 Es geht los, seien Sie gespannt!
@@ -249,7 +251,7 @@ in keiner Arbeit fehlen dürfen!  Wir zeigen die ersten 10000 Primzahlen in
 Damit ist schon das wichtigste dieses Abschnittes gesagt.  Alles weitere findet
 sich in~\cite{lakoff87_women_fire_danger_thing}.
 
-\chapter{\dots, Zwei, \dots}
+\chapter{Hauptteil}
 \label{cha:zwei}
 
 Eine allgemein anerkannte Weisheit besagt, dass alles stimmt, was sich in
@@ -291,7 +293,7 @@ Thematik auf der anderen Seite finden lassen.  Dennoch sein darauf hingewiesen,
 dass dies in keiner Weise die Glaubwürdigkeit der angebrachten Argumente in
 irgendeiner Weise angreift!
 
-\chapter{\dots, Drei!}
+\chapter{Schluss}
 \label{cha:drei}
 
 Keine Arbeit kann vollständig sein ohne eine eingebundene Grafik, und sei sie
@@ -320,10 +322,24 @@ Tatsächlich fällt mir doch noch was ein, und zwar ein Zitat\index{Zitat}:
 \end{displayquote}
 
 \section{Weitere Informationen}
+
+Der Quelltext dieser Vorlage ist verfügbar unter \url{https://github.com/fsfw-dresden/latex-vorlagen}.
+
 Fragen und Probleme rund um LaTeX können in der FSFW-Sprechstunde geklärt werden: 
 \url{https://fsfw-dresden.de/sprechstunde}.
 
 Ggf. sind auch die Kommentare im Quelltext dieser Datei hilfreich.
+
+
+Um das vorliegende Dokument manuell von der Kommandozeile aus zu komplieren nutzt man
+die folgenden Befehle (in dieser Reihenfolge):
+
+\begin{verbatim}
+pdflatex muster-diplomarbeit.tex
+biber muster-diplomarbeit
+pdflatex muster-diplomarbeit.tex
+\end{verbatim}
+
 
 
 
@@ -363,8 +379,8 @@ Ggf. sind auch die Kommentare im Quelltext dieser Datei hilfreich.
 \bigskip \medskip
 
 Hiermit erkläre ich, dass ich die am heutigen Tag eingereichte Diplomarbeit zum
-Thema „Über das Sein und Nichtsein von Werden und Vergehen“ unter Betreuung von
-Prof.~Dr.~nihil.~Siegfried von Gestern selbstständig erarbeitet, verfasst und
+Thema „Über das Sein und Nichtsein von Dingen und Ideen“ unter Betreuung von
+Prof.~Dr.~nihil.~Sieglinde von Gestern selbstständig erarbeitet, verfasst und
 Zitate kenntlich gemacht habe. Andere als die angegebenen Hilfsmittel wurden von
 mir nicht benutzt.
 
